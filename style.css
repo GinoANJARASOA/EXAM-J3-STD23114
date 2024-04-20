@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+h3 {
+
+    margin-left: 40px;
+}
+
+.iconeLogo {
+    flex-basis: 40vw;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+#barreDeNavigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 6.5vw;
+    font-size: 20px;
+}
+
+.navigation {
+    margin-left: 70px;
+    overflow: 100;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6vw;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    border-radius: 35px;
+    height: 2.5vh;
+}
+
+#searchIcone {
+    margin-left: 20px;
+    width: 40px;
+}
+

@@ -12,6 +12,7 @@ nav {
   height: 10vh;
   position: fixed;
   overflow: hidden;
+  color: white;
 }
 
 #barreDeNavigation p:hover {
@@ -52,6 +53,7 @@ h3 {
 .navigation {
   margin-left: 70px;
   overflow: 100;
+  
 }
 
 .search {
@@ -81,7 +83,7 @@ h3 {
 }
 
 header {
-  background-image: url(image/wp1937341-your-name-wallpapers.png);
+  background-image: url(image/wp1937331-your-name-wallpapers.jpg);
   background-size: cover;
   padding-left: 44vw;
   padding-top: 35vh;
@@ -709,20 +711,18 @@ figcaption p {
   }
 }
 
-#navInfo {
-  color:  #16a085;
+.index2 {
+  background-image: url(image/wallpaperflare.com_wallpaper\ \(2\).jpg);
+  background-size: cover;
 }
-
 .info {
   color: aliceblue;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 200px; 
-  background-image: url(image/wallpaperflare.com_wallpaper\ \(2\).jpg);
-  background-size: cover;
-  padding-bottom: 100vh;
+  padding-top: 190px; 
+  
   
   
 }
@@ -735,6 +735,7 @@ figcaption p {
 
 h2 {
   margin-left: 60px;
+  color: #16a085;
 }
 
 .conteneur {
@@ -779,4 +780,43 @@ h2 {
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
+}
+
+#Categorie {
+  color: #16a085;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin: 20px;
+  margin-left: 3vw;
+
+}
+
+
+.intro {
+  margin-top: 40px;
+  margin-left: 60px;
+  color: #fff;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.cell {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: table;
+}
+
+.card {
+  background: white;
+  border: 1px solid #c3c6cf;
+  border-radius: 15px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 200px;
 }

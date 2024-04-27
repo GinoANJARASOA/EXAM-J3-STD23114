@@ -811,12 +811,20 @@ h2 {
   display: table;
 }
 
-.card {
-  background: white;
+#card1, #card2, #card3, #card4+,
+#card5, #card6, #card7, #card8 {
   border: 1px solid #c3c6cf;
   border-radius: 15px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   height: 200px;
+}
+
+#card1 {
+  background-image: url(image/drama.png);
+}
+
+#card2 {
+  background-image: url(image/fa8c5b53934fb88a193687ed2a5e07f7.jpg);
 }

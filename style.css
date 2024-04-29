@@ -633,7 +633,7 @@ a {
   right: 0;
 }
 
-.coverDesign h1 {
+.coverDesign #title {
   color: #fff;
   font-size: 2.2em;
   letter-spacing: 0.05em;
@@ -712,8 +712,8 @@ figcaption p {
 }
 
 .index2 {
-  background-image: url(image/wallpaperflare.com_wallpaper\ \(2\).jpg);
-  background-size: cover;
+  background-image: url(image/Wallpaper\ Estetic.jpg);
+  background-size:cover;
 }
 .info {
   color: aliceblue;
@@ -722,20 +722,13 @@ figcaption p {
   align-items: center;
   justify-content: space-between;
   padding-top: 190px; 
-  
-  
-  
+  margin-bottom: 16.5vh;
 }
 
 .information {
   margin-top: 40px;
   margin-left: 60px;
   
-}
-
-h2 {
-  margin-left: 60px;
-  color: #16a085;
 }
 
 .conteneur {
@@ -773,32 +766,28 @@ h2 {
 }
 
 .info p {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
-h2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-}
-
-#Categorie {
+h1 {
   color: #16a085;
-  font-size: 48px;
+  font-size: 65px;
   font-weight: 900;
   letter-spacing: -1px;
   margin: 20px;
-  margin-left: 3vw;
+  margin-left: 5vw;
+  margin-top: -20px;
 
 }
 
-
-.intro {
-  margin-top: 40px;
-  margin-left: 60px;
-  color: #fff;
+.type {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 
+.type h1 {
+  margin-left: 70vw;
+}
 .grid {
   overflow: hidden;
 }
@@ -807,24 +796,102 @@ h2 {
   float: left;
   width: 25%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 50px;
   display: table;
 }
 
-#card1, #card2, #card3, #card4+,
-#card5, #card6, #card7, #card8 {
-  border: 1px solid #c3c6cf;
+#card1 {
+  background-image: url(image/53cffd3a-93a1-4927-b8d9-d23b79a6ae67.jpg);
   border-radius: 15px;
+  height: 250px;
+  background-size: cover;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  height: 200px;
-}
-
-#card1 {
-  background-image: url(image/drama.png);
+  color: #fff;
 }
 
 #card2 {
-  background-image: url(image/fa8c5b53934fb88a193687ed2a5e07f7.jpg);
+  background-image: url(image/swim1.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
 }
+
+#card3 {
+  background-image: url(image/Izuku\ Midoriya\ exploring.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#card4 {
+  background-image: url(image/wp1937341-your-name-wallpapers.png);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#card5 {
+  background-image: url(image/anime1.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#card6 {
+  background-image: url(image/anime.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#card7 {
+  background-image: url(image/🔪\ JEFF\ THE\ KILLER\ 🔪.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#card8 {
+  background-image: url(image/wp9866032-tsukimichi-wallpapers.jpg);
+  border-radius: 15px;
+  height: 250px;
+  background-size: cover;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.new div {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+}
+

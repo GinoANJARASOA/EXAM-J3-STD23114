@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
@@ -13,6 +12,7 @@ nav {
   position: fixed;
   overflow: hidden;
   color: white;
+  margin-left: 8vw;
 }
 
 #barreDeNavigation p:hover {
@@ -29,7 +29,6 @@ nav {
 }
 
 h3 {
-
   margin-left: 40px;
 }
 
@@ -53,7 +52,6 @@ h3 {
 .navigation {
   margin-left: 70px;
   overflow: 100;
-  
 }
 
 .search {
@@ -69,6 +67,7 @@ h3 {
   font-size: 20px;
   border-radius: 35px;
   height: 2.5vh;
+  color: white;
 }
 
 #searchIcone {
@@ -712,23 +711,23 @@ figcaption p {
 }
 
 .index2 {
-  background-image: url(image/Wallpaper\ Estetic.jpg);
-  background-size:cover;
+  background-image: url(image/wp5858809-blue-anime-galaxy-wallpapers.jpg);
+  background-size: cover;
 }
+
 .info {
   color: aliceblue;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 190px; 
+  padding-top: 190px;
   margin-bottom: 16.5vh;
 }
 
 .information {
   margin-top: 40px;
   margin-left: 60px;
-  
 }
 
 .conteneur {
@@ -766,7 +765,7 @@ figcaption p {
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h1 {
@@ -788,6 +787,7 @@ h1 {
 .type h1 {
   margin-left: 70vw;
 }
+
 .grid {
   overflow: hidden;
 }
@@ -800,8 +800,14 @@ h1 {
   display: table;
 }
 
+.cell div p:hover {
+  color: rgb(94, 95, 179);
+  font-weight: bold;
+  font-size: 25px;
+}
+
 #card1 {
-  background-image: url(image/53cffd3a-93a1-4927-b8d9-d23b79a6ae67.jpg);
+  background-image: url(image/53cffd3a-93a1-4927-b8d9-d23b79a6ae67-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -812,7 +818,7 @@ h1 {
 }
 
 #card2 {
-  background-image: url(image/swim1.jpg);
+  background-image: url(image/tumblr_static_1qe00dpx1g74wsww8ows0g0c0-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -823,7 +829,7 @@ h1 {
 }
 
 #card3 {
-  background-image: url(image/Izuku\ Midoriya\ exploring.jpg);
+  background-image: url(image/Izuku\ Midoriya\ exploring-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -834,7 +840,7 @@ h1 {
 }
 
 #card4 {
-  background-image: url(image/wp1937341-your-name-wallpapers.png);
+  background-image: url(image/rendering-portrait-anime-doctor-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -845,7 +851,7 @@ h1 {
 }
 
 #card5 {
-  background-image: url(image/anime1.jpg);
+  background-image: url(image/téléchargé-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -856,7 +862,7 @@ h1 {
 }
 
 #card6 {
-  background-image: url(image/anime.jpg);
+  background-image: url(image/wp11946352-funny-anime-faces-wallpapers-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -867,7 +873,7 @@ h1 {
 }
 
 #card7 {
-  background-image: url(image/🔪\ JEFF\ THE\ KILLER\ 🔪.jpg);
+  background-image: url(image/🔪\ JEFF\ THE\ KILLER\ 🔪-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -878,7 +884,7 @@ h1 {
 }
 
 #card8 {
-  background-image: url(image/wp9866032-tsukimichi-wallpapers.jpg);
+  background-image: url(image/reincarnation.png);
   border-radius: 15px;
   height: 250px;
   background-size: cover;
@@ -888,10 +894,58 @@ h1 {
   color: #fff;
 }
 
-.new div {
+.nouveau {
+  overflow: hidden;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
   align-items: center;
+  gap: 1.5vw;
 }
 
+.newAnime {
+  background: #f3f3f7;
+  border: 1px solid #c3c6cf;
+  border-radius: 10px;
+  width: 15%;
+  height: 48vh;
+}
+
+.newAnime h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.newAnime p {
+  margin-top: 10px;
+  margin-left: 2vw;
+}
+
+.picture {
+  width: 80%;
+  height: 30vh;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+span {
+  color: burlywood;
+  font-size: 18px;
+}
+
+#BarreDeNavigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  width: 80px;
+  height: 500px;
+  padding-top: 35vh;
+  position: fixed;
+}
+
+.index3 {
+  background-image: url(image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+  background-size: cover;
+}

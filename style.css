@@ -12,11 +12,13 @@ nav {
   position: fixed;
   overflow: hidden;
   color: white;
-  margin-left: 8vw;
+  padding-left: 5vw;
   width: 100%;
+  z-index: 999;
+  background-color: rgb(9, 9, 65);
 }
 
-#barreDeNavigation p:hover {
+#barreDeNavigation a:hover {
   color: rgb(66, 161, 190);
   font-weight: bold;
 }
@@ -53,6 +55,7 @@ h3 {
 .navigation {
   margin-left: 70px;
   overflow: 100;
+  color: white;
 }
 
 .search {
@@ -772,7 +775,7 @@ figcaption p {
 }
 
 h1 {
-  color: #16a085;
+  color: beige;
   font-size: 65px;
   font-weight: 900;
   letter-spacing: -1px;
@@ -803,10 +806,15 @@ h1 {
   display: table;
 }
 
-.cell div p:hover {
+.cell div a {
+  color: white;
+  font-size: 25px;
+}
+
+.cell div a:hover {
   color: rgb(94, 95, 179);
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 #Categorie1 {
@@ -919,6 +927,10 @@ h1 {
   gap: 8vw;
 }
 
+.nouveau div:hover {
+  background-color: beige;
+}
+
 .newAnime,
 .Anime {
   background: #f3f3f7;
@@ -938,6 +950,12 @@ h1 {
 .Anime p {
   margin-left: 0.5vw;
   font-size: 18px;
+}
+
+.nouveauAnime {
+  margin-left: 50vw;
+  font-size: 80px;
+  color: beige;
 }
 
 .picture {
@@ -977,7 +995,7 @@ span {
 }
 
 .sportNonPopulaire h1 {
-  padding-top:10vh ;
+  padding-top:30vh ;
   padding-left: 75vh;
 }
 
@@ -992,7 +1010,8 @@ span {
   gap: 8vw;
 }
 
-.rowDrama {
+.rowDrama,
+.rowHorreur {
   display: flex;
   flex-direction: row;
   justify-content: center ;
@@ -1000,4 +1019,42 @@ span {
   padding-top: 9vh;
   padding-left: 4vw;
   gap: 8vw;
+}
+
+.row div:hover,
+.rowDrama div:hover,
+.populaire div:hover,
+.rowHorreure1 div:hover,
+.rowHorreure2 div:hover {
+  background-color: beige;
+}
+
+.populaireScience {
+  padding-top: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vw;
+  margin-bottom: 25vh;
+}
+
+footer {
+  background-color: rgb(9, 9, 65);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vw;
+  margin-top: 5vh;
+  padding-top: 2vh;
+}
+
+footer section h3 {
+  color: beige;
+  padding-bottom: 2.5vh;
+  font-size: 23px;
+}
+
+footer section p {
+  color: #f8f8f8;
+  gap: 1vh;
 }

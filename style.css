@@ -13,6 +13,7 @@ nav {
   overflow: hidden;
   color: white;
   margin-left: 8vw;
+  width: 100%;
 }
 
 #barreDeNavigation p:hover {
@@ -82,11 +83,13 @@ h3 {
 }
 
 header {
+  padding-top: 32vh;
+  padding-bottom: 13.6vh;
+}
+
+body {
   background-image: url(image/wp1937331-your-name-wallpapers.jpg);
   background-size: cover;
-  padding-left: 44vw;
-  padding-top: 35vh;
-  padding-bottom: 13.6vh;
 }
 
 
@@ -806,7 +809,7 @@ h1 {
   font-size: 25px;
 }
 
-#card1 {
+#Categorie1 {
   background-image: url(image/53cffd3a-93a1-4927-b8d9-d23b79a6ae67-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -817,7 +820,7 @@ h1 {
   color: #fff;
 }
 
-#card2 {
+#Categorie2 {
   background-image: url(image/tumblr_static_1qe00dpx1g74wsww8ows0g0c0-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -828,7 +831,7 @@ h1 {
   color: #fff;
 }
 
-#card3 {
+#Categorie3 {
   background-image: url(image/Izuku\ Midoriya\ exploring-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -839,7 +842,7 @@ h1 {
   color: #fff;
 }
 
-#card4 {
+#Categorie4 {
   background-image: url(image/rendering-portrait-anime-doctor-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -850,7 +853,7 @@ h1 {
   color: #fff;
 }
 
-#card5 {
+#Categorie5 {
   background-image: url(image/téléchargé-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -861,7 +864,7 @@ h1 {
   color: #fff;
 }
 
-#card6 {
+#Categorie6 {
   background-image: url(image/wp11946352-funny-anime-faces-wallpapers-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -872,7 +875,7 @@ h1 {
   color: #fff;
 }
 
-#card7 {
+#Categorie7 {
   background-image: url(image/🔪\ JEFF\ THE\ KILLER\ 🔪-fococlipping-standard.png);
   border-radius: 15px;
   height: 250px;
@@ -883,7 +886,7 @@ h1 {
   color: #fff;
 }
 
-#card8 {
+#Categorie8 {
   background-image: url(image/reincarnation.png);
   border-radius: 15px;
   height: 250px;
@@ -894,30 +897,47 @@ h1 {
   color: #fff;
 }
 
-.nouveau {
-  overflow: hidden;
+.nouveau,
+.populaire,
+.row,
+.rowHorreure1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  overflow: hidden;
   gap: 1.5vw;
+  padding-top: 5vh;
 }
 
-.newAnime {
+.rowHorreure2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end ;
+  gap: 1.5vw;
+  padding-top: 9vh;
+  padding-left: 4vw;
+  gap: 8vw;
+}
+
+.newAnime,
+.Anime {
   background: #f3f3f7;
   border: 1px solid #c3c6cf;
   border-radius: 10px;
-  width: 15%;
-  height: 48vh;
+  width: 17%;
+  height: 50vh;
 }
 
-.newAnime h3 {
-  margin-top: 20px;
+.newAnime,
+.Anime h3 {
+  margin-top: 10px;
   font-size: 25px;
 }
 
-.newAnime p {
-  margin-top: 10px;
-  margin-left: 2vw;
+.newAnime,
+.Anime p {
+  margin-left: 0.5vw;
+  font-size: 18px;
 }
 
 .picture {
@@ -946,6 +966,38 @@ span {
 }
 
 .index3 {
-  background-image: url(image/wallpaperflare.com_wallpaper\ \(3\).jpg);
+  background-image: url(image/wp6129182-rimuru-wallpapers.png);
   background-size: cover;
+}
+
+.sportPopulaire h1{
+  padding-top: 15vh;
+  padding-left: 75vh;
+
+}
+
+.sportNonPopulaire h1 {
+  padding-top:10vh ;
+  padding-left: 75vh;
+}
+
+.populaire,
+.row {
+  margin-left: 4vw;
+  gap: 3vw;
+}
+
+.rowHorreure1 {
+  margin-left: 4vw;
+  gap: 8vw;
+}
+
+.rowDrama {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  gap: 1.5vw;
+  padding-top: 9vh;
+  padding-left: 4vw;
+  gap: 8vw;
 }
